@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: 'Dancing Script', cursive;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../gambar/n.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+header{
+	position: sticky;
+	height: 100vh;
+	
+}
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: flex;
+	font-size: 20px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	text-decoration: none;
+	color: rgb(174, 212, 243);
+	margin-left: -5px;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo{
+	display: flex;
+    flex-wrap: wrap;
+}
+.logo img{
+	position: absolute;
+	top: 37%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+	
+}
+
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 49.5%;
+	transform: translate(-50%,-50%);
+	color: rgb(174, 247, 247);
+	background-color:  rgba(88, 45, 60, 0.445);
+}
+
+
+.blabla{
+	position: absolute;
+	top: 7%;
+	left: 15%;
+	color: #4E2117;
+	background-color: rgba(255, 240, 245, 0.774);
+	padding: 5px;
+	border-radius: 25px;
+}
+.profil{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	color:#4E2117;
+	background-color: rgba(255, 240, 245, 0.774);
+	padding: 5px;
+	border-radius: 25px;
+	
+}
+
+.foto img{
+	position: absolute;
+	top: 10%;
+	left: 75%;
+	width: 100px;
+	height: 150px;
+}
+
+.education{
+	position: absolute;
+	top: 61%;
+	left: 29% ;
+	color: #4E2117;
+	background-color: rgba(255, 240, 245, 0.774);
+	padding: 15px;
+	border-radius: 25px;
+
+}
+.contact{
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	transform: translate(-50, -50);
+	background-color:  rgba(255, 240, 245, 0.774);
+	border-radius: 23px;
+	color: #4E2117;
+	
+}
+.quote{
+	position: absolute;
+	top: 30%;
+	left: 36%;
+	color: #4E2117;
+	background-color: rgba(255, 240, 245, 0.774);
+	border-radius: 25px;
+	
+}
+.gif{
+	position: absolute;
+	top: 40%;
+	left: 36%;
+}
+
+
+@media screen and (max-width:568px){
+
+	.header{
+		position: relative;
+		background-attachment: fixed;
+		
+	}
+	.blabla{
+		position: absolute;
+		top: 14%;
+		left: 1%;
+		
+		background-color: rgba(255, 240, 245, 0.774);
+		padding: 5px;
+		min-width: 100%;
+	}		
+	.profil{
+		position: absolute;
+		top: 44%;
+		left: 1%;
+		
+		background-color: rgba(255, 240, 245, 0.774);
+		padding: 5px;
+		min-width: 100%;
+		
+	}
+	.education{
+		position: absolute;
+		top: 87%;
+		left: 5%;
+	}
+	.contact{
+		position: absolute;
+		top: 107%;
+		left: 25%;
+		
+	}
+	.quote{
+		position: absolute;
+		top: 30%;
+		left: 10%;
+	}
+	.gif{
+		position: absolute;
+		top: 35%;
+		left: 10%;
+	}
+
+}
